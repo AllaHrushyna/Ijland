@@ -1,0 +1,32 @@
+
+
+body {
+background-color:rgb(250, 165, 159);
+}
+
+img {
+    width: auto;
+    height: 150px;
+    }
+
+.img-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.tekst {
+    padding: 10px;
+    text-align: center;
+}
+p {
+    color: rgb(103, 6, 160);
+    font-size: 50px;
+    margin: 0;
+}
+
+.tekst:hover {
+    background-color: #fdfd63e7;
+    cursor: pointer;
+}
